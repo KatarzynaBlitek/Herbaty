@@ -2,4 +2,16 @@ p {
   font-family: Lato;
 }
 
+.background {
+  background-size: cover;
+  background-repeat:no-repeat;
+  position: fixed;
+  z-index: -1;
+  filter:saturate(58%);
 
+}
+.app-wrapper {
+  display: flex;
+  height: 100%;
+
+}
